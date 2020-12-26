@@ -24,11 +24,12 @@ def sum_squares(n):
 
 
 class Baikal:
-    def __init__(self):
-        pass
+    def __init__(self, name, url):
+        self.name = name
+        self.url = url
 
     def process(self):
-        print("Baikal processing...")
+        print(f"Baikal processing {self.name}...")
 
     def main(self):
         pass
