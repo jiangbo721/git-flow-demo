@@ -35,7 +35,21 @@ class Baikal:
         print(f"Baikal main {self.name}:{self.url}")
 
 
+class Ocr:
+    def __init__(self, name, url):
+        self.name = name
+        self.url = url
+
+    def process(self):
+        print(f"Ocr processing {self.name}...")
+
+    def main(self):
+        print(f"Ocr main {self.name}:{self.url}")
+
+
 if __name__ == '__main__':
     sum_squares(10000)
     baikal = Baikal("test", "")
     baikal.process()
+    ocr = Ocr("test", "")
+    ocr.process()
