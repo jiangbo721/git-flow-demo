@@ -23,5 +23,19 @@ def sum_squares(n):
     return res
 
 
+class Baikal:
+    def __init__(self, name, url):
+        self.name = name
+        self.url = url
+
+    def process(self):
+        print(f"Baikal processing {self.name}...")
+
+    def main(self):
+        pass
+
+
 if __name__ == '__main__':
     sum_squares(10000)
+    baikal = Baikal("test", "")
+    baikal.process()
