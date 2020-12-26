@@ -32,7 +32,7 @@ class Baikal:
         print(f"Baikal processing {self.name}...")
 
     def main(self):
-        pass
+        print(f"Baikal main {self.name}:{self.url}")
 
 
 if __name__ == '__main__':
