@@ -23,5 +23,16 @@ def sum_squares(n):
     return res
 
 
+class Baikal:
+    def __init__(self):
+        pass
+
+    def process(self):
+        print("Baikal processing...")
+
+    def main(self):
+        pass
+
+
 if __name__ == '__main__':
     sum_squares(10000)
