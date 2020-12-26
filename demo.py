@@ -37,3 +37,5 @@ class Baikal:
 
 if __name__ == '__main__':
     sum_squares(10000)
+    baikal = Baikal("test", "")
+    baikal.process()
