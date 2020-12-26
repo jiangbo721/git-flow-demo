@@ -23,5 +23,14 @@ def sum_squares(n):
     return res
 
 
+class Ocr:
+    def __init__(self, name, url):
+        self.name = name
+        self.url = url
+
+    def process(self):
+        print(f"Ocr processing {self.name}...")
+
+
 if __name__ == '__main__':
     sum_squares(10000)
