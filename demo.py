@@ -44,7 +44,7 @@ class Ocr:
         print(f"Ocr processing {self.name}...")
 
     def main(self):
-        pass
+        print(f"Ocr main {self.name}:{self.url}")
 
 
 if __name__ == '__main__':
