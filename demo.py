@@ -31,6 +31,11 @@ class Ocr:
     def process(self):
         print(f"Ocr processing {self.name}...")
 
+    def main(self):
+        pass
+
 
 if __name__ == '__main__':
     sum_squares(10000)
+    ocr = Ocr("test", "")
+    ocr.process()
