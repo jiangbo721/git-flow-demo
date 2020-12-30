@@ -22,7 +22,7 @@ def sum_squares(n):
     print(f'计算0到{n}的平方和耗时:{duration: .4f}s, 将结果为:{res}')
     return res
 
-
+a = 1
 class Baikal:
     def __init__(self, name, url):
         self.name = name
